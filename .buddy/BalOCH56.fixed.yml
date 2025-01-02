@@ -9,17 +9,6 @@
   fail_on_prepare_env_warning: true
   resources: "XLARGE"
   actions:
-  - action: "GitHub Release"
-    type: "GIT_HUB_RELEASE"
-    integration: "wyb1LvGQ7OqGzVozpmo0RV36A9"
-    organization: "king-65"
-    repository: "BalOCH-"
-    draft: true
-    tag_name: "BalOCH56 "
-    target_commitish: "$BUDDY_RUN_COMMIT"
-    release_name: "2.15"
-    body: "15"
-    prerelease: true
   - action: "GitHub Release-1"
     type: "GIT_HUB_RELEASE"
     integration: "wyb1LvGQ7OqGzVozpmo0RV36A9"
