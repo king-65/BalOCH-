@@ -1,0 +1,10 @@
+- pipeline: "BalOCH56"
+  events:
+  - type: "PUSH"
+    refs:
+    - "refs/heads/main"
+  - type: "PULL_REQUEST"
+    branches:
+    - "main"
+  fail_on_prepare_env_warning: true
+  resources: "XLARGE"
